@@ -29,5 +29,14 @@ El proyecto clonado poseía dos clase: Inventario y Producto. Dentro de la clase
 - `testListarProductos`: en este método se prueba que al solicitar una lista de productos que hay guardados en el inventario, nos devuelva el código del producto. Para controlar esto se ha utilizado el método assertNoyNull.
 
 
+## Subida del proyecto.
+- Para realizar la subida del proyecto a GitHub, primero me he tenido que crear una cuenta en la plataforma. Una vez hecho esto, me he creado un nuevo repositorio en el cuál he subido la práctica. Una vez creado el reposritorio en GitHub, la plataforma ofrece una URL la cual he utilizado para vincular mi repositorio local con el repositorio remoto. 
+- El segundo paso que he realizado es descargarme Git para poder inicializar mi repositorio local. Los comandos que me han ayudado para la práctica son: 
+- `git clone`: para clonar el repositorio del profesor.
+- `git init`: para inicializr la carpeta donde he guardado el proyecto en cuestión y tener un seguiemiento del mismo.
+- `git remote add origin (URL de mi repositorio)`: para vincular mi repositorio remoto con el repositorio local.
+- `git add.`: para añadir todos los archivos modificados a la "stagin area" (o área de espera).
+- `git commit -m "Comentario para explicar el cambio realizado"`: para confirmar todos los cambios realizados.
+- `git push -u origin main`: para subirlo al repositorio remoto en la rama principal del proyecto.  
 
 
